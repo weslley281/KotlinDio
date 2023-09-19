@@ -5,4 +5,5 @@ fun main() {
     val b = 0
 
     val resultado = try {a/b} catch (e: ArithmeticException) {0}
+    println(resultado)
 }
